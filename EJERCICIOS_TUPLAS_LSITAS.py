@@ -19,3 +19,5 @@ numeros.append(int(input("ingrese un numero: ")))
 numeros.append(int(input("ingrese otro numero: ")))
 numeros.append(int(input("ingrese uj ultimo numero: ")))
 print (f"El numero mayor es: {max(numeros)} y el menor fue: {min(numeros)}")
+
+#EJERCICIOS GUIA SOCIALIZACIÓN.

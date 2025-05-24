@@ -32,3 +32,5 @@ print (Res)
 Rel= R/2
 L3= [N2**N5,N7/N3,N10+N6,N8-N1,N9*N4]
 print (L3)
+
+#TERMINADO

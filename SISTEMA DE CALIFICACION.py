@@ -76,3 +76,5 @@ print ("--- PROMEDIO GENERAL ---")
 G= Pr+Tr+Sr+Lr+Wr
 Gr= G/5
 print (f"El promedio de las 5 asignaturas es de: ", Gr)
+
+#TERMINADO, CALIFICACION, PROGRAMA.

@@ -16,3 +16,5 @@ print (f"clave groups: {dictionary['grupos']}")
 print (f"clave numbers: {dictionary['numbers'],[1]}")
 print (f"calve groups:{dictionary['grupos']['b']}")
 print (dictionary,["z"])
+
+#PARTICIPACION 
