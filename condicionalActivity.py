@@ -30,14 +30,16 @@ L= input("Escriba el nombre de la operacion que quiere realizar: ").upper()
 if L== "SUMA": #Letras en ""
     suma=N1+N2
     print (f"El resultado de la suma es: {suma}")
-elif L=="R":
+elif L=="Resta":
     resta=N1-N2
     print (f"El resultado de su resta es: {resta}")
-elif L=="M":
+elif L=="Multiplicacion":
     multi=N1*N2
     print (f"El resultado de la multiplicacion es: {multi}")
-elif L=="D":
+elif L=="Division":
     divi= N1/N2
     print (f"El restultado de su division es: {divi}")
 else:
     print ("No se maneja ese tipo de operacion")
+    
+    #TERMINADO 
