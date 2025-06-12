@@ -182,4 +182,35 @@
 
 print ("Ejercicios con Diccionarios (con condicionales) ")
 
-print ("XXI. Crea un diccionario con {nombre: Juan, edad: 17}. Si la edad es mayor o igual a 18, muestra “Adulto”, si no, muestra “Menor de edad”. ")
+# print ("XXI. Crea un diccionario con {nombre: Juan, edad: 17}. Si la edad es mayor o igual a 18, muestra “Adulto”, si no, muestra “Menor de edad”. ")
+# D= {"Nombre":"Juan",
+#     "Edad":17}
+# if D["Edad"]>=18:
+#     print ("Adulto")
+# else:
+#     print ("Menor de edad")
+
+# print ("XXII.Crea un diccionario {nombre: Lucía, edad: 20}. Si la edad es mayor a 18, cambia el valor de “edad” a 21. Luego muestra el diccionario.")
+# D= {"Nombre":"Lucia",
+#     "Edad":20}
+# if D["Edad"]>18:
+#     D["Edad"]=21
+#     print (f"Esta es el diccionario actualizado {D}")
+# else:
+#     print ("Dicionario Normal")
+
+# print ("XXIII.Crea un diccionario con {nombre: Carlos}. Si la clave “ciudad” no existe, agrégala con el valor “Bogotá” y muestra el diccionario. ")
+# D= {"Nombre":"Carlos"}
+# if "Ciudad" in D:
+#     print (f"Ya existe")
+# else:
+#     D["Ciudad"]="BOGOTÁ"
+#     print (f"Diccionario Actualizado {D}")
+
+print ("XXIV. Dado el diccionario {producto: pan, precio: 1200}, verifica si la clave “precio” existe. Si existe, muestra su valor, si no, muestra “No hay precio")
+P= {"Productos":"Pan",
+    "Precio":1200}
+if "Precio" in P:
+    print (P["Precio"])
+else:
+    print ("No hay precio")
