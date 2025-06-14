@@ -207,10 +207,20 @@ print ("Ejercicios con Diccionarios (con condicionales) ")
 #     D["Ciudad"]="BOGOTÁ"
 #     print (f"Diccionario Actualizado {D}")
 
-print ("XXIV. Dado el diccionario {producto: pan, precio: 1200}, verifica si la clave “precio” existe. Si existe, muestra su valor, si no, muestra “No hay precio")
-P= {"Productos":"Pan",
-    "Precio":1200}
-if "Precio" in P:
-    print (P["Precio"])
+# print ("XXIV. Dado el diccionario {producto: pan, precio: 1200}, verifica si la clave “precio” existe. Si existe, muestra su valor, si no, muestra “No hay precio")
+# P= {"Productos":"Pan",
+#     "Precio":1200}
+# if "Precio" in P:
+#     print (P["Precio"])
+# else:
+#     print ("No hay precio")
+    
+print ("XXV. Crea un diccionario con {pan: 1200, leche: 2000}. Si “pan” está en el diccionario, muestra su precio; si no, muestra “Producto no disponible”")
+
+P= {"Pan": 1200,
+    "Leche": 2000}
+if "Pan" in P:
+    print (P["Pan"])
 else:
-    print ("No hay precio")
+    print ("El producto no esta disponible")
+
